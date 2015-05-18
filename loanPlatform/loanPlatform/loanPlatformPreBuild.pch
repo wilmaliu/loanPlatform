@@ -1,0 +1,20 @@
+//
+//  loanPlatformPreBuild.pch
+//  loanPlatform
+//
+//  Created by zhoubl on 15/5/17.
+//  Copyright (c) 2015年 Pencil Vase Corp. All rights reserved.
+//
+
+#ifndef loanPlatform_loanPlatformPreBuild_pch
+#define loanPlatform_loanPlatformPreBuild_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
+
+#import "z_Precompile.h"
+
+#endif
