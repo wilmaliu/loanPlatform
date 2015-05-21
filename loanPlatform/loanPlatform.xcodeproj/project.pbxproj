@@ -47,6 +47,11 @@
 		36E037FC1B0A366100450736 /* SJRankingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E037FB1B0A366100450736 /* SJRankingListViewController.m */; };
 		36E037FF1B0A367300450736 /* SJPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E037FE1B0A367300450736 /* SJPersonalCenterViewController.m */; };
 		36E0380A1B0A3E3500450736 /* SJRecentListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E038091B0A3E3500450736 /* SJRecentListView.m */; };
+		3D4501851B0B7C6900D8167F /* SJUIRankTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4501841B0B7C6900D8167F /* SJUIRankTableViewCell.m */; };
+		3D4501B11B0CA48700D8167F /* SJMyPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4501B01B0CA48700D8167F /* SJMyPublishViewController.m */; };
+		3D4501B41B0CA62F00D8167F /* SJMyPubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4501B31B0CA62F00D8167F /* SJMyPubTableViewCell.m */; };
+		3D4501B71B0CD5DE00D8167F /* SJMyPublishItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4501B61B0CD5DE00D8167F /* SJMyPublishItem.m */; };
+		3D4501BA1B0CDD5F00D8167F /* SJSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4501B91B0CDD5F00D8167F /* SJSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +127,16 @@
 		36E037FE1B0A367300450736 /* SJPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJPersonalCenterViewController.m; sourceTree = "<group>"; };
 		36E038081B0A3E3500450736 /* SJRecentListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRecentListView.h; sourceTree = "<group>"; };
 		36E038091B0A3E3500450736 /* SJRecentListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRecentListView.m; sourceTree = "<group>"; };
+		3D4501831B0B7C6900D8167F /* SJUIRankTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUIRankTableViewCell.h; sourceTree = "<group>"; };
+		3D4501841B0B7C6900D8167F /* SJUIRankTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUIRankTableViewCell.m; sourceTree = "<group>"; };
+		3D4501AF1B0CA48700D8167F /* SJMyPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMyPublishViewController.h; sourceTree = "<group>"; };
+		3D4501B01B0CA48700D8167F /* SJMyPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMyPublishViewController.m; sourceTree = "<group>"; };
+		3D4501B21B0CA62F00D8167F /* SJMyPubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMyPubTableViewCell.h; sourceTree = "<group>"; };
+		3D4501B31B0CA62F00D8167F /* SJMyPubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMyPubTableViewCell.m; sourceTree = "<group>"; };
+		3D4501B51B0CD5DE00D8167F /* SJMyPublishItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMyPublishItem.h; sourceTree = "<group>"; };
+		3D4501B61B0CD5DE00D8167F /* SJMyPublishItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMyPublishItem.m; sourceTree = "<group>"; };
+		3D4501B81B0CDD5F00D8167F /* SJSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSettingViewController.h; sourceTree = "<group>"; };
+		3D4501B91B0CDD5F00D8167F /* SJSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSettingViewController.m; sourceTree = "<group>"; };
 		DA2350681BF4FB243E0D1CB1 /* Pods-loanPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loanPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-loanPlatform/Pods-loanPlatform.release.xcconfig"; sourceTree = "<group>"; };
 		F34D384E44A6671A1CA7C1AE /* Pods-loanPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loanPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-loanPlatform/Pods-loanPlatform.debug.xcconfig"; sourceTree = "<group>"; };
 		F944AB3203A9ADAD0F86705C /* libPods-loanPlatform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loanPlatform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -366,6 +381,10 @@
 		36356D9C1B08EAD600A205F0 /* Personal Center */ = {
 			isa = PBXGroup;
 			children = (
+				3D4501B81B0CDD5F00D8167F /* SJSettingViewController.h */,
+				3D4501B91B0CDD5F00D8167F /* SJSettingViewController.m */,
+				3D4501AF1B0CA48700D8167F /* SJMyPublishViewController.h */,
+				3D4501B01B0CA48700D8167F /* SJMyPublishViewController.m */,
 				36E037FD1B0A367300450736 /* SJPersonalCenterViewController.h */,
 				36E037FE1B0A367300450736 /* SJPersonalCenterViewController.m */,
 				36E038061B0A36C300450736 /* View */,
@@ -467,6 +486,8 @@
 		36E038041B0A36B400450736 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D4501831B0B7C6900D8167F /* SJUIRankTableViewCell.h */,
+				3D4501841B0B7C6900D8167F /* SJUIRankTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -481,6 +502,8 @@
 		36E038061B0A36C300450736 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D4501B21B0CA62F00D8167F /* SJMyPubTableViewCell.h */,
+				3D4501B31B0CA62F00D8167F /* SJMyPubTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -488,6 +511,8 @@
 		36E038071B0A36C700450736 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3D4501B51B0CD5DE00D8167F /* SJMyPublishItem.h */,
+				3D4501B61B0CD5DE00D8167F /* SJMyPublishItem.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -619,6 +644,7 @@
 				36356D7D1B08E67800A205F0 /* z_UI.m in Sources */,
 				36E037F31B0A343F00450736 /* AppDelegate+SJInit.m in Sources */,
 				36356D7B1B08E67800A205F0 /* z_Singleton.mm in Sources */,
+				3D4501BA1B0CDD5F00D8167F /* SJSettingViewController.m in Sources */,
 				36E037EE1B0A317F00450736 /* ProgressHUD.m in Sources */,
 				36E0380A1B0A3E3500450736 /* SJRecentListView.m in Sources */,
 				36356D821B08E74800A205F0 /* NSData+MD5.m in Sources */,
@@ -628,6 +654,7 @@
 				36E037FF1B0A367300450736 /* SJPersonalCenterViewController.m in Sources */,
 				36356D791B08E67800A205F0 /* z_MD5.m in Sources */,
 				36356D731B08E67800A205F0 /* UIDevice+SJHelpers.m in Sources */,
+				3D4501851B0B7C6900D8167F /* SJUIRankTableViewCell.m in Sources */,
 				36E037E91B0A2E3900450736 /* NetUtls.m in Sources */,
 				36356D721B08E67800A205F0 /* UIColor+Hex.m in Sources */,
 				36356D751B08E67800A205F0 /* UIView+Frame.m in Sources */,
@@ -636,12 +663,15 @@
 				36356D781B08E67800A205F0 /* z_Log.m in Sources */,
 				36356D2B1B08E02400A205F0 /* AppDelegate.m in Sources */,
 				36356D741B08E67800A205F0 /* UIImage+UIImageScale.m in Sources */,
+				3D4501B71B0CD5DE00D8167F /* SJMyPublishItem.m in Sources */,
 				36E037FC1B0A366100450736 /* SJRankingListViewController.m in Sources */,
 				36E037F61B0A364100450736 /* SJRecentListViewController.m in Sources */,
 				36356D7C1B08E67800A205F0 /* z_SystemInfo.m in Sources */,
+				3D4501B41B0CA62F00D8167F /* SJMyPubTableViewCell.m in Sources */,
 				36E037F91B0A365200450736 /* SJRecommendListViewController.m in Sources */,
 				36356D761B08E67800A205F0 /* z_AppStore.m in Sources */,
 				36356D281B08E02400A205F0 /* main.m in Sources */,
+				3D4501B11B0CA48700D8167F /* SJMyPublishViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

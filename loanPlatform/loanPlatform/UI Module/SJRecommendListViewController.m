@@ -7,6 +7,13 @@
 //
 
 #import "SJRecommendListViewController.h"
+#import "SVPullToRefresh.h"
+
+@interface SJRecommendListViewController()<UITableViewDataSource, UITableViewDelegate>
+
+@property(nonatomic, strong)UITableView *tableView;
+
+@end
 
 @implementation SJRecommendListViewController
 
@@ -15,6 +22,8 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"成功案例";
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
